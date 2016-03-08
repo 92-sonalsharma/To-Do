@@ -110,6 +110,18 @@ $scope.getData();
     alert($scope.jsonObj);
   }
 
+  $scope.close=function(item){
+ console.info(item);
+ $http({
+      method: 'POST',
+      url: 'http://localhost:3000/todo/delete',
+      data: item
+
+  });
+  $scope.getData();
+  console.info($scope.list);
+}
+
 
  $scope.clicked = function(item) {
    $scope.updateContent=item;
