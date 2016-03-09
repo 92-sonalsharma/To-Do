@@ -29,7 +29,7 @@ test:
   #
    adapter: mysql2
   hostname: us-cdbr-iron-east-03.cleardb.net
-  database: todo_test
+  database: heroku_1dd0b35ea13c075	
   user: b216fe3334252d
   password: 04d6fc14
   url: <%= ENV['CLEARDB_DATABASE_URL'] %>
