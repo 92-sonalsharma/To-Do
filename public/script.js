@@ -40,6 +40,9 @@ $scope.content={
 };
 
 $scope.addDescription = function(task, info, myTag) {
+  $scope.item = "";
+ $scope.detail = "";
+$scope.subTag = "";
 console.info("Task Name: "+$scope.taskName);
 console.info(info);
 console.info("myTag "+myTag);
