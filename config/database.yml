@@ -26,7 +26,12 @@ development:
 # Do not set this db to the same as development or production.
 test:
   #<<: *default
-  #database: todo_test
+  #
+   adapter: mysql2
+  hostname: us-cdbr-iron-east-03.cleardb.net
+  database: todo_test
+  user: b216fe3334252d
+  password: 04d6fc14
   url: <%= ENV['CLEARDB_DATABASE_URL'] %>
 
 # As with config/secrets.yml, you never want to store sensitive information,
