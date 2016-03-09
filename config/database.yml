@@ -32,7 +32,7 @@ test:
   database: heroku_1dd0b35ea13c075	
   user: b216fe3334252d
   password: 04d6fc14
-  url: <%= ENV['CLEARDB_DATABASE_URL'] %>
+ # url: <%= ENV['CLEARDB_DATABASE_URL'] %>
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
