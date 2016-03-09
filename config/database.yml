@@ -52,4 +52,5 @@ production:
   database: todo_production
   username: todo
   password: <%= ENV['TODO_DATABASE_PASSWORD'] %>
-  url: <%= ENV['mysql://b216fe3334252d:04d6fc14@us-cdbr-iron-east-03.cleardb.net/heroku_1dd0b35ea13c075?reconnect=true'] %>
+url: <%= ENV['mysql://b216fe3334252d:04d6fc14@us-cdbr-iron-east-03.cleardb.net/heroku_1dd0b35ea13c075?reconnect=true'] %>
+
